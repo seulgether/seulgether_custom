@@ -1,5 +1,9 @@
 :root {
   --color-0: #ffffff; /* test color */
+	--color-bg: #fee5ea;
+	--color-pink-1: #fac1cb;
+	--color-pink-2: #fdd8de;
+	--color-bg-2: #fefefe;
 }
 
 /* Top 버튼 이미지 변경 */
@@ -12,4 +16,30 @@
 	background-size: contain;
 	width: 72px;
 	height: 72px;
+}
+
+/* 배경색 */
+html, body {
+	background: var(--color-bg);
+}
+
+/* 테두리, 기타 강조 배경색 */
+header #header-bar>.row, #article-content-wrapper>.header, #article-list #article-list-category {
+	border-top-color: var(--color-pink-1);
+}
+#main .menu-wrapper>.header, header #header-bar #header-top-notice strong.notice-badge {
+	background: var(--color-pink-1);
+}
+header #right-search-form>input[type=text] {
+	border: var(--color-pink-1);
+}
+header #right-search-form>#right-search-btn {
+	color: var(--color-pink-1);
+}
+
+/* 버튼색 */
+.btn-primary {
+	background-color: var(--color-pink-2);
+	border-color: var(--color-pink-2);
+	color: #777;
 }
