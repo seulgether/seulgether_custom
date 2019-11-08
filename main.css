@@ -1,9 +1,20 @@
 :root {
   --color-0: #ffffff; /* test color */
 	--color-bg: #fee5ea;
+	--color-pink-0: #fb8989;
 	--color-pink-1: #fac1cb;
 	--color-pink-2: #fdd8de;
 	--color-bg-2: #fefefe;
+}
+@font-face {
+	font-family: 'CookieRunBold';
+	src: url(https://seulgether.github.io/seulgether_custom/fonts/CookieRun Bold.ttf);
+	src: url(https://seulgether.github.io/seulgether_custom/fonts/CookieRun Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CookieRunBlack';
+	src: url(https://seulgether.github.io/seulgether_custom/fonts/CookieRun Black.ttf);
+	src: url(https://seulgether.github.io/seulgether_custom/fonts/CookieRun Black.ttf) format('truetype');
 }
 
 /* Top 버튼 이미지 변경 */
@@ -21,6 +32,12 @@
 /* 배경색 */
 html, body {
 	background: var(--color-bg);
+	font-family: CookieRunBold,CookieRunBlack;
+}
+
+/* 글작성 툴바 테두리 색 */
+.fr-toolbar {
+	border-top-color: var(--color-pink-0);
 }
 
 /* 테두리, 기타 강조 배경색 */
