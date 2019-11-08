@@ -1,12 +1,20 @@
 @import url("./common.css");
 
-/* 접속자 수 */
-#board-info #viewers-area {
-	font-size: 12px;
+/* 모바일 배경색 */
+header, footer {
+	background: var(--color-bg);
 }
-#viewers:before {
-	content: '지금! 스륵님의 매력에 ';
+
+/* 테두리, 기타 강조 배경색 */
+header {
+	border-bottom-color: var(--color-pink-1);
 }
-#viewers:after {
-	content: '명이 스르륵 녹아 들어 있습니다.';
+header>#header-area>#header-bar-link, header > #header-search-bar #header-search-btn {
+	color: var(--color-pink-1);
+}
+header > #header-search-bar #header-search-input {
+	border-color: var(--color-pink-1);
+}
+#header-top-notice strong.notice-badge {
+	background: var(--color-pink-1);
 }

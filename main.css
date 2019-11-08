@@ -1,10 +1,5 @@
 @import url("./common.css");
 
-/* 글작성 툴바 테두리 색 */
-.fr-toolbar {
-	border-top-color: var(--color-pink-0);
-}
-
 /* 테두리, 기타 강조 배경색 */
 header #header-bar>.row, #article-content-wrapper>.header, #article-list #article-list-category {
 	border-top-color: var(--color-pink-1);
@@ -17,22 +12,4 @@ header #right-search-form>input[type=text] {
 }
 header #right-search-form>#right-search-btn {
 	color: var(--color-pink-1);
-}
-
-/* 버튼색 */
-.btn-primary {
-	background-color: var(--color-pink-2);
-	border-color: var(--color-pink-2);
-	color: #777;
-}
-
-/* 접속자 수 */
-#board-info #viewers-area {
-	font-size: 12px;
-}
-#viewers:before {
-	content: '지금! 스륵님의 매력에 ';
-}
-#viewers:after {
-	content: '명이 스르륵 녹아 들어 있습니다.';
 }
