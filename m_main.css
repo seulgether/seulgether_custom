@@ -9,7 +9,7 @@ header, footer {
 header {
 	border-bottom-color: var(--color-pink-1);
 }
-header>#header-area>#header-bar-link, header > #header-search-bar #header-search-btn {
+header>#header-area>#header-bar-link, header>#header-area>#header-search-link, header > #header-search-bar #header-search-btn {
 	color: var(--color-pink-1);
 }
 header > #header-search-bar #header-search-input {
