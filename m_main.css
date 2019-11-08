@@ -1,3 +1,12 @@
-:root {
-  --color-0: #ffffff; /* test color */
+@import url("./common.css");
+
+/* 접속자 수 */
+#board-info #viewers-area {
+	font-size: 12px;
+}
+#viewers:before {
+	content: '지금! 스륵님의 매력에 ';
+}
+#viewers:after {
+	content: '명이 스르륵 녹아 들어 있습니다.';
 }

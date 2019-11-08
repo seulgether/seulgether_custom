@@ -1,0 +1,33 @@
+:root {
+  --color-0: #ffffff; /* test color */
+	--color-bg: #fee5ea;
+	--color-pink-0: #fb8989;
+	--color-pink-1: #fac1cb;
+	--color-pink-2: #fdd8de;
+	--color-bg-2: #fefefe;
+}
+@font-face {
+	font-family: 'JejuGothic';
+	src: url('https://seulgether.github.io/seulgether_custom/fonts/JejuGothic.ttf');
+}
+
+* {
+	font-family: JejuGothic,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* 배경색 */
+html, body {
+	background: var(--color-bg);
+}
+
+/* Top 버튼 이미지 변경 */
+#movetotop > img {
+	display: none;
+}
+#movetotop {
+	display: inline-block;
+	background-image: url(https://seulgether.github.io/seulgether_custom/images/move-to-top.png);
+	background-size: contain;
+	width: 72px;
+	height: 72px;
+}
