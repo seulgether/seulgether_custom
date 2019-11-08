@@ -8,13 +8,11 @@
 }
 @font-face {
 	font-family: 'CookieRunBold';
-	src: url(https://seulgether.github.io/seulgether_custom/fonts/CookieRun Bold.ttf);
-	src: url(https://seulgether.github.io/seulgether_custom/fonts/CookieRun Bold.ttf) format('truetype');
+	src: url('https://seulgether.github.io/seulgether_custom/fonts/CookieRun Bold.ttf');
 }
 @font-face {
 	font-family: 'CookieRunBlack';
-	src: url(https://seulgether.github.io/seulgether_custom/fonts/CookieRun Black.ttf);
-	src: url(https://seulgether.github.io/seulgether_custom/fonts/CookieRun Black.ttf) format('truetype');
+	src: url('https://seulgether.github.io/seulgether_custom/fonts/CookieRun Black.ttf');
 }
 
 /* Top 버튼 이미지 변경 */
