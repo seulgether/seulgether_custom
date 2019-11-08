@@ -31,7 +31,7 @@ header #header-bar>.row, #article-content-wrapper>.header, #article-list #articl
 	background: var(--color-pink-1);
 }
 header #right-search-form>input[type=text] {
-	border: var(--color-pink-1);
+	border-color: var(--color-pink-1);
 }
 header #right-search-form>#right-search-btn {
 	color: var(--color-pink-1);
