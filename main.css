@@ -1,3 +1,15 @@
 :root {
   --color-0: #ffffff; /* test color */
 }
+
+/* Top 버튼 이미지 변경 */
+#movetotop > img {
+	display: none;
+}
+#movetotop {
+	display: inline-block;
+	background-image: url(https://seulgether.github.io/seulgether_custom/images/move-to-top.png);
+	background-size: contain;
+	width: 72px;
+	height: 72px;
+}
