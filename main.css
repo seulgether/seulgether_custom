@@ -26,7 +26,7 @@ header .row > div:first-child > a {
 	height: 50px;
 	background-image: var(--img-logo);
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: contain;
 }
 header .row > div:first-child > a > img {
 	display: none;
