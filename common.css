@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
 :root {
   --color-0: #ffffff; /* test color */
 	--color-bg: #fee5ea;
@@ -8,10 +8,6 @@
 	--color-bg-2: #fefefe;
 	--img-logo: url(https://seulgether.github.io/seulgether_custom/images/seulgether_logo2.png);
 }
-/* @font-face {
-	font-family: 'JejuGothic';
-	src: url('https://seulgether.github.io/seulgether_custom/fonts/JejuGothic.ttf');
-} */
 
 * {
 	font-family: "Jeju Gothic","Helvetica Neue",Helvetica,Arial,sans-serif;
