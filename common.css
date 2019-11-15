@@ -52,3 +52,22 @@ html, body {
 #viewers:after {
 	content: '명이 스르륵 녹아 들어 있습니다.';
 }
+
+/* 페이지네이션 버튼 */
+.pagination>li>a {
+	border-radius: 34px;
+	border: none;
+}
+
+/* 선택된버튼 focus, hover */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: var(--color-pink-0);
+}
+/* 일반버튼 hover */
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	background-color: var(--color-pink-2);
+}
+/* 좌우버튼 radius */
+.pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span {
+	border-radius: 34px;
+}

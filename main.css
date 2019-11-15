@@ -37,3 +37,32 @@ header .row > div:first-child > a {
 header .row > div:first-child > a > img {
 	display: none;
 }
+
+/* 프로필 이미지 위치 조정 */
+#board-info #board-info-profile-img {
+	float: left !important;
+	width: 64px;
+	transform: translate(-1em, -1em);
+}
+
+/* 헤더 보더 */
+header #header-bar>.row {
+	border-top: 4px solid var(--color-pink-1);
+	border-bottom: 4px solid var(--color-pink-1);
+	border-radius: 8px;
+	border-left: none;
+	border-right: none;
+	height: 43px;
+}
+
+/* 메인 영역 테두리 제거 */
+#main #main-content>div.frame {
+	border: none;
+}
+
+/* 게시판 목록 너비 */
+#article-list #article-list-category, #article-list>.article-list-row {
+	width: calc(100% + 2em);
+	border-right: none;
+	transform: translateX(-1em);
+}
