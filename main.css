@@ -1,5 +1,11 @@
 @import url("./common.css");
 
+/* 배경 그라데이션 */
+body {
+	background: linear-gradient(180deg, var(--color-bg) 0%, #ffced7 45%, #ffbfcc 95%, #ffb0c0 100%);
+	height: auto;
+}
+
 /* 메뉴 틈 색 채움 */
 #main .menu-wrapper .spacer {
 	background: var(--color-bg);
