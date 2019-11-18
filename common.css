@@ -47,10 +47,12 @@ html, body {
 	font-size: 12px;
 }
 #viewers:before {
-	content: '지금! 스륵님의 매력에 ';
+/* 	content: '지금! 스륵님의 매력에 '; */
+	content: '지금! 토깽단 ';
 }
 #viewers:after {
-	content: '명이 스르륵 녹아 들어 있습니다.';
+/* 	content: '명이 스르륵 녹아 들어 있습니다.'; */
+	content: '명이 작당모의 중입니다...!';
 }
 
 /* 페이지네이션 버튼 */
