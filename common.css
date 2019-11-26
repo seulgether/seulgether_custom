@@ -55,6 +55,18 @@ html, body {
 	content: '명이 작당모의 중입니다...!';
 }
 
+/* 게시판 소메뉴 배경색 제거, 하단 보더 추가 */
+#article-list #article-list-category {
+	background: #ffffff;
+	border-bottom: 2px solid var(--color-pink-1);
+}
+#article-list #article-list-category > a {
+	background: #ffffff;
+}
+#article-list-category i.fa-home {
+	color: var(--color-pink-0);
+}
+
 /* 페이지네이션 버튼 */
 .pagination>li>a {
 	border-radius: 34px;
