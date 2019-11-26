@@ -60,6 +60,11 @@ header #header-bar>.row {
 	border: none;
 }
 
+/* 공지 토글버튼 위치 조정 */
+#article-list #article-option-area > #article-option-area-toggle-btn {
+	margin-top: 2px;
+}
+
 /* 게시판 목록 너비 */
 #article-list #article-list-category, #article-list>.article-list-row {
 	width: calc(100% + 2em);
