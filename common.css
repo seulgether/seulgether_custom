@@ -6,6 +6,7 @@
 	--color-pink-1: #fac1cb;
 	--color-pink-2: #fdd8de;
 	--color-bg-2: #fefefe;
+	--color-category-bg: #ffffff;
 	--img-logo: url(https://seulgether.github.io/seulgether_custom/images/seulgether_logo2.png);
 }
 
@@ -57,11 +58,11 @@ html, body {
 
 /* 게시판 소메뉴 배경색 제거, 하단 보더 추가 */
 #article-list #article-list-category {
-	background: #ffffff;
+	background: var(--color-category-bg);
 	border-bottom: 2px solid var(--color-pink-1);
 }
 #article-list #article-list-category > a {
-	background: #ffffff;
+	background: var(--color-category-bg);
 }
 #article-list-category i.fa-home {
 	color: var(--color-pink-0);
