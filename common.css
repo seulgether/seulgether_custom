@@ -47,6 +47,7 @@ html, body {
 }
 .btn-primary:hover {
 	background-color: var(--color-pink-0);
+	border-color: transparent;
 }
 /* 접속자 수 */
 #board-info #viewers-area {
