@@ -8,6 +8,8 @@
 	--color-pink-3: #f9eef0;
 	--color-bg-2: #fefefe;
 	--color-category-bg: #ffffff;
+	--color-box-shadow: #ff8181;
+	--color-active: #ff3c3c;
 	--img-logo: url(https://seulgether.github.io/seulgether_custom/images/seulgether_logo2.png);
 }
 
@@ -41,19 +43,19 @@ html, body {
 .btn-primary {
 	background-color: var(--color-pink-2);
 	border-color: var(--color-pink-2);
-	color: #777;
+	color: var(--color-active);
 }
-
+.btn-primary:hover {
+	background-color: var(--color-pink-0);
+}
 /* 접속자 수 */
 #board-info #viewers-area {
 	font-size: 12px;
 }
 #viewers:before {
-/* 	content: '지금! 스륵님의 매력에 '; */
 	content: '지금! 토깽단 ';
 }
 #viewers:after {
-/* 	content: '명이 스르륵 녹아 들어 있습니다.'; */
 	content: '명이 작당모의 중입니다...!';
 }
 
@@ -66,28 +68,43 @@ html, body {
 	background: var(--color-category-bg);
 	line-height: 15px;
 }
-#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
-	background: var(--color-pink-3);	
+#article-list #article-list-category > a.active, #article-list #article-list-category > a:hover {
+	background: var(--color-pink-3);
 }
 #article-list-category i.fa-home {
 	color: var(--color-pink-0);
 }
 
 /* 페이지네이션 버튼 */
-.pagination>li>a {
+.pagination > li > a {
 	border-radius: 34px;
 	border: none;
 }
+.pagination > li > a, .pagination > li > span {
+	color: var(--color-pink-0);
+}
 
 /* 선택된버튼 focus, hover */
-.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
 	background-color: var(--color-pink-0);
 }
 /* 일반버튼 hover */
-.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
 	background-color: var(--color-pink-2);
+	color: var(--color-active);
 }
 /* 좌우버튼 radius */
-.pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span {
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
 	border-radius: 34px;
 }
