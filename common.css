@@ -109,3 +109,19 @@ html, body {
 .pagination > li:last-child > span {
 	border-radius: 34px;
 }
+
+/* 하트 아이콘 애니메이션 효과 */
+@keyframes beat {
+	from {
+		transform: scale(1.2);
+	}
+	to {
+		transform scale(1.0);
+	}
+}
+.fa.fa-heart {
+	animation-name: beat;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-delay: 6s;
+}
