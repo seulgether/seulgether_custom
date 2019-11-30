@@ -10,7 +10,7 @@
 	--color-category-bg: #ffffff;
 	--color-box-shadow: #ff8181;
 	--color-active: #ff3c3c;
-	--img-logo: url(https://seulgether.github.io/seulgether_custom/images/seulgether_logo2.png);
+	--img-logo: url(./images/seulgether_logo2.png);
 }
 
 * {
@@ -28,7 +28,7 @@ html, body {
 }
 #movetotop {
 	display: inline-block;
-	background-image: url(https://seulgether.github.io/seulgether_custom/images/to-up-button.gif);
+	background-image: url(./images/to-up-button.gif);
 	background-size: contain;
 	width: 72px;
 	height: 72px;
@@ -119,9 +119,59 @@ html, body {
 		transform scale(1.0);
 	}
 }
+@-moz-keyframes beat {
+	from {
+		transform: scale(1.2);
+	}
+	to {
+		transform scale(1.0);
+	}
+}
+@-webkit-keyframes beat {
+	from {
+		transform: scale(1.2);
+	}
+	to {
+		transform scale(1.0);
+	}
+}
+@-ms-keyframes beat {
+	from {
+		transform: scale(1.2);
+	}
+	to {
+		transform scale(1.0);
+	}
+}
 .fa.fa-heart {
-	animation-name: beat;
-	animation-iteration-count: infinite;
-	animation-duration: 1s;
-	animation-delay: 6s;
+	-webkit-animation: beat 1s ease-in 6s infinite;
+	-moz-animation: beat 1s ease-in 6s infinite;
+	-ms-animation: beat 1s ease-in 6s infinite;
+	animation: beat 1s ease-in 6s infinite;
+}
+
+/* 눈내리는 효과 */
+@keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-webkit-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {background-color:#b4cfe0;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px; background-color:#6b92b9;}
+}
+@-ms-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+body {
+	background-image: url(./images/snow.png), url(./images/snow3.png), url(./images/snow2.png);
+	-webkit-animation: snow 20s linear infinite;
+	-moz-animation: snow 20s linear infinite;
+	-ms-animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite;
 }
