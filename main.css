@@ -1,9 +1,11 @@
 @import url("./common.css");
 
 /* 배경 그라데이션 */
+html {
+	background: linear-gradient(180deg, var(--color-bg) 0%, #ffced7 45%, #ffbfcc 95%, #ffb0c0 100%);
+}
 body {
-	/* background: linear-gradient(180deg, var(--color-bg) 0%, #ffced7 45%, #ffbfcc 95%, #ffb0c0 100%); */
-	height: auto;
+	background-color: transparent;
 }
 /* 눈내리는 효과 */
 @keyframes snow {
@@ -24,7 +26,6 @@ body {
 	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 body {
-	background-color: #ffced7;
 	background-image: url(./images/snow.png), url(./images/snow3.png), url(./images/snow2.png);
 	-webkit-animation: snow 20s linear infinite;
 	-moz-animation: snow 20s linear infinite;
