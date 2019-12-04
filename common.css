@@ -11,6 +11,8 @@
 	--color-box-shadow: #ff8181;
 	--color-active: #ff3c3c;
 	--img-logo: url(./images/seulgether_logo2.png);
+	--gif-fni: url(./images/fire-and-ice.gif);
+	--gif-ls: url(./images/light-stick.gif);
 }
 
 * {
@@ -149,4 +151,34 @@ html, body {
 	-moz-animation: beat 1s ease-in 6s infinite;
 	-ms-animation: beat 1s ease-in 6s infinite;
 	animation: beat 1s ease-in 6s infinite;
+}
+
+/* 이모티콘 변경 */
+.fr-command.fr-emoticon[data-param1=JKanStyle]>img {
+    width: 24px !important;
+    height: 24px !important;
+    padding-left: 24px;
+    background-image: var(--gif-fni);
+    background-size: 100%;
+}
+.fr-emoticon.fr-deletable > img[alt=JKanStyle]{ 
+     width: 112px !important; 
+     height: 112px !important; 
+     padding-left: 112px;
+     background-image: var(--gif-fni);
+     background-size: 100%; 
+}
+.fr-command.fr-emoticon[data-param1=OptimizePrime]>img {
+    width: 24px !important;
+    height: 24px !important;
+    padding-left: 24px;
+    background-image: var(--gif-ls);
+    background-size: 100%;
+}
+.fr-emoticon.fr-deletable > img[alt=OptimizePrime]{ 
+     width: 112px !important; 
+     height: 112px !important; 
+     padding-left: 112px;
+     background-image: var(--gif-ls);
+     background-size: 100%; 
 }
