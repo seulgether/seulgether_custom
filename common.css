@@ -10,6 +10,7 @@
 	--color-category-bg: #ffffff;
 	--color-box-shadow: #ff8181;
 	--color-active: #ff3c3c;
+	--color-focus: #ff2222;
 	--img-logo: url(./images/seulgether_logo2.png);
 	--gif-fni: url(./images/fire-and-ice.gif);
 	--gif-ls: url(./images/light-stick.gif);
@@ -50,7 +51,15 @@ html, body {
 }
 .btn-primary:hover {
 	background-color: var(--color-pink-0);
-	border-color: transparent;
+	border-color: var(--color-pink-0);
+}
+.btn-primary:active {
+	background-color: var(--color-active);
+	border-color: var(--color-active);
+}
+.btn-primary:active:focus {
+	background-color: var(--color-focus);
+	border-color: var(--color-focus);
 }
 /* 접속자 수 */
 #board-info #viewers-area {
