@@ -191,3 +191,15 @@ html, body {
      background-image: var(--gif-ls);
      background-size: 100%; 
 }
+
+/* 눈덩이 굴리기 - 애니메이션은 각 화면에서 정의 */
+footer {
+	background: url(./images/snowball.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	-webkit-animation: snowball 20s linear infinite;
+	-moz-animation: snowball 20s linear infinite;
+	-ms-animation: snowball 20s linear infinite;
+	animation: snowball 20s linear infinite;
+}
