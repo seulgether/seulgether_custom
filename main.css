@@ -65,7 +65,7 @@ header .row > div:first-child > a {
 	display: block;
 	width: 144px;
 	height: 50px;
-	background-image: var(--img-logo);
+	background-image: url(./images/seulgether_logo2.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
