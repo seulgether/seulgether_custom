@@ -102,3 +102,21 @@ header #header-bar > .row {
 	border-right: none;
 	transform: translateX(-1em);
 }
+
+/* footer 눈덩이 애니메이션 */
+@keyframes snowball {
+	from { background-position-x: calc(100% + 368px); }
+	to { background-position-x: calc(0% - 368px);}
+}
+@-moz-keyframes snowball {
+	from { background-position-x: calc(100% + 368px); }
+	to { background-position-x: calc(0% - 368px);}
+}
+@-webkit-keyframes snowball {
+	from { background-position-x: calc(100% + 368px); }
+	to { background-position-x: calc(0% - 368px);}
+}
+@-ms-keyframes snowball {
+	from { background-position-x: calc(100% + 368px); }
+	to { background-position-x: calc(0% - 368px);}
+}
