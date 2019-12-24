@@ -41,21 +41,21 @@ header > #header-area > a > h1 {
 /* footer 눈덩이 애니메이션 */
 @keyframes snowball {
 	from { background-position-x: calc(100% + 342px); }
-	to { background-position-x: calc(0% - 342px);}
+	to { background-position-x: calc(0% - 342px); }
 }
 @-moz-keyframes snowball {
 	from { background-position-x: calc(100% + 342px); }
-	to { background-position-x: calc(0% - 342px);}
+	to { background-position-x: calc(0% - 342px); }
 }
 @-webkit-keyframes snowball {
 	from { background-position-x: calc(100% + 342px); }
-	to { background-position-x: calc(0% - 342px);}
+	to { background-position-x: calc(0% - 342px); }
 }
 @-ms-keyframes snowball {
 	from { background-position-x: calc(100% + 342px); }
-	to { background-position-x: calc(0% - 342px);}
+	to { background-position-x: calc(0% - 342px); }
 }
-footer {
+/* footer {
 	background: url(./images/snowball.gif) no-repeat;
 	background-size: contain;
-}
+} */

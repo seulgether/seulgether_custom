@@ -201,6 +201,16 @@ html, body {
 
 /* 눈덩이 굴리기 - 애니메이션은 각 화면에서 정의 */
 footer {
+	position: relative;
+}
+footer:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
 	background: url(./images/snowball.gif);
 	background-size: contain;
 	background-repeat: no-repeat;
