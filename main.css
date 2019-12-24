@@ -105,20 +105,76 @@ header #header-bar > .row {
 
 /* footer 눈덩이 애니메이션 */
 @keyframes snowball {
-	from { background-position-x: calc(100% + 368px); }
-	to { background-position-x: calc(0% - 368px); }
+	0% {
+		background-position-x: calc(100% + 368px);
+		transform: scaleX(1);
+	}
+	50% {
+		background-position-x: calc(0% - 368px);
+		transform: scaleX(1);
+	}
+	50.01% {
+		background-position-x: calc(100% + 368px);
+		transform: scaleX(-1);
+	}
+	100% {
+		background-position-x: calc(0% - 368px);
+		transform: scaleX(-1);
+	}
 }
 @-moz-keyframes snowball {
-	from { background-position-x: calc(100% + 368px); }
-	to { background-position-x: calc(0% - 368px); }
+	0% {
+		background-position-x: calc(100% + 368px);
+		transform: scaleX(1);
+	}
+	50% {
+		background-position-x: calc(0% - 368px);
+		transform: scaleX(1);
+	}
+	50.01% {
+		background-position-x: calc(100% + 368px);
+		transform: scaleX(-1);
+	}
+	100% {
+		background-position-x: calc(0% - 368px);
+		transform: scaleX(-1);
+	}
 }
 @-webkit-keyframes snowball {
-	from { background-position-x: calc(100% + 368px); }
-	to { background-position-x: calc(0% - 368px); }
+	0% {
+		background-position-x: calc(100% + 368px);
+		transform: scaleX(1);
+	}
+	50% {
+		background-position-x: calc(0% - 368px);
+		transform: scaleX(1);
+	}
+	50.01% {
+		background-position-x: calc(100% + 368px);
+		transform: scaleX(-1);
+	}
+	100% {
+		background-position-x: calc(0% - 368px);
+		transform: scaleX(-1);
+	}
 }
 @-ms-keyframes snowball {
-	from { background-position-x: calc(100% + 368px); }
-	to { background-position-x: calc(0% - 368px); }
+	0% {
+		background-position-x: calc(100% + 368px);
+		transform: scaleX(1);
+	}
+	50% {
+		background-position-x: calc(0% - 368px);
+		transform: scaleX(1);
+	}
+	50.01% {
+		background-position-x: calc(100% + 368px);
+		transform: scaleX(-1);
+	}
+	100% {
+		background-position-x: calc(0% - 368px);
+		transform: scaleX(-1);
+	}
 }
 footer {
 	position: relative;
