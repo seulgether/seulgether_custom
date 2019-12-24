@@ -55,7 +55,13 @@ header > #header-area > a > h1 {
 	from { background-position-x: calc(100% + 342px); }
 	to { background-position-x: calc(0% - 342px); }
 }
-/* footer {
-	background: url(./images/snowball.gif) no-repeat;
+footer {
+	background: url(./images/snowball.gif);
 	background-size: contain;
-} */
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	-webkit-animation: snowball 20s linear infinite;
+	-moz-animation: snowball 20s linear infinite;
+	-ms-animation: snowball 20s linear infinite;
+	animation: snowball 20s linear infinite;
+}

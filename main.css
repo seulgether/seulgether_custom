@@ -120,3 +120,24 @@ header #header-bar > .row {
 	from { background-position-x: calc(100% + 368px); }
 	to { background-position-x: calc(0% - 368px); }
 }
+footer {
+	position: relative;
+}
+footer:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	background: url(./images/snowball.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	-webkit-animation: snowball 20s linear infinite;
+	-moz-animation: snowball 20s linear infinite;
+	-ms-animation: snowball 20s linear infinite;
+	animation: snowball 20s linear infinite;
+}
