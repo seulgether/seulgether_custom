@@ -205,11 +205,11 @@ html, body {
 }
 .fr-command.fr-emoticon[data-param1=TwitchSings] > img,
 .fr-emoticon.fr-deletable > img[alt=TwitchSings] {
-	background-image: url(./images/emoticon/seuruek_hi.png);
+	background-image: url(./images/emoticon/seureuk_hi.png);
 }
 .fr-command.fr-emoticon[data-param1=SoonerLater] > img,
 .fr-emoticon.fr-deletable > img[alt=SoonerLater] {
-	background-image: url(./images/emoticon/seuruek_sry.png);
+	background-image: url(./images/emoticon/seureuk_sry.png);
 }
 .fr-command.fr-emoticon[data-param1=HolidayTree] > img,
 .fr-emoticon.fr-deletable > img[alt=HolidayTree] {
