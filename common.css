@@ -189,9 +189,9 @@ html, body {
 .fr-emoticon.fr-deletable > img[alt=HolidayTree],
 .fr-emoticon.fr-deletable > img[alt=HolidaySanta],
 .fr-emoticon.fr-deletable > img[alt=HolidayPresent] {
-	width: 24px !important;
-	height: 24px !important;
-	padding-left: 24px;
+	width: 92px !important;
+	height: 92px !important;
+	padding-left: 92px;
 	background-size: 100%;
 }
 
