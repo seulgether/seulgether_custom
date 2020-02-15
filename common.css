@@ -217,11 +217,11 @@ html, body {
 }
 .fr-command.fr-emoticon[data-param1=HolidaySanta] > img,
 .fr-emoticon.fr-deletable > img[alt=HolidaySanta] {
-	background-image: url(./images/emoticon/rabbit_blue.png);
+	background-image: url(./images/emoticon/rabbit_blue_square.png);
 }
 .fr-command.fr-emoticon[data-param1=HolidayPresent] > img,
 .fr-emoticon.fr-deletable > img[alt=HolidayPresent] {
-	background-image: url(./images/emoticon/rabbit_red.png);
+	background-image: url(./images/emoticon/rabbit_red_square.png);
 }
 
 /* 눈덩이 굴리기 - 애니메이션은 각 화면에서 정의 */
