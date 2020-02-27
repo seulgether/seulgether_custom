@@ -59,3 +59,14 @@ footer {
 	background: url(./images/snowball.gif) no-repeat;
 	background-size: contain;
 }
+
+/* 게시글 이모티콘 크기 */
+#article-content-wrapper #article-content img[alt=SingsNote],
+#article-content-wrapper #article-content img[alt=SingsMic],
+#article-content-wrapper #article-content img[alt=TwitchSings],
+#article-content-wrapper #article-content img[alt=SoonerLater],
+#article-content-wrapper #article-content img[alt=HolidayTree],
+#article-content-wrapper #article-content img[alt=HolidaySanta],
+#article-content-wrapper #article-content img[alt=HolidayPresent] {
+	height: 92px !important;
+}
