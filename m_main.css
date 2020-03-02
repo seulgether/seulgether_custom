@@ -67,6 +67,7 @@ footer {
 #article-content-wrapper #article-content img[alt=SoonerLater],
 #article-content-wrapper #article-content img[alt=HolidayTree],
 #article-content-wrapper #article-content img[alt=HolidaySanta],
-#article-content-wrapper #article-content img[alt=HolidayPresent] {
+#article-content-wrapper #article-content img[alt=HolidayPresent],
+#article-content-wrapper #article-content img[alt=HolidayOrnament]{
 	height: 92px !important;
 }
