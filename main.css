@@ -26,11 +26,11 @@ body {
 	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 body {
-	background-image: url(./images/snow.png), url(./images/snow3.png), url(./images/snow2.png);
+/*	background-image: url(./images/snow.png), url(./images/snow3.png), url(./images/snow2.png);
 	-webkit-animation: snow 20s linear infinite;
 	-moz-animation: snow 20s linear infinite;
 	-ms-animation: snow 20s linear infinite;
-	animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite; */
 }
 
 /* 메뉴 틈 색 채움 */
