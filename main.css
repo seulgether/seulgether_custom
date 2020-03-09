@@ -116,7 +116,6 @@ header #header-bar > .row {
 }
 .dropdown .dropdown-menu,
 .input-group-btn .dropdown-menu {
-	display: block !important;
 	opacity: 0;
 	padding: 8px 0 3px 0px;
 }
