@@ -51,10 +51,10 @@ body {
 }
 body {
 	background-image: url(./images/leaf1.png), url(./images/leaf2.png), url(./images/leaf3.png), url(./images/leaf4.png);
-	-webkit-animation: leaf 20s linear infinite;
-	-moz-animation: leaf 20s linear infinite;
-	-ms-animation: leaf 20s linear infinite;
-	animation: leaf 20s linear infinite;
+	-webkit-animation: leaf 25s linear infinite;
+	-moz-animation: leaf 25s linear infinite;
+	-ms-animation: leaf 25s linear infinite;
+	animation: leaf 25s linear infinite;
 }
 
 
