@@ -32,6 +32,31 @@ body {
 	-ms-animation: snow 20s linear infinite;
 	animation: snow 20s linear infinite; */
 }
+/* 벚꽃잎 */
+@keyframes leaf {
+	0% {background-position: 0px 0px, 200px 200px, 400px 400px, 270px 270px;}
+	100% {background-position: 600px 600px, -500px 900px, 1200px 1200px, -30px 570px }
+}
+@-moz-keyframes leaf {
+	0% {background-position: 0px 0px, 200px 200px, 400px 400px, 270px 270px;}
+	100% {background-position: 600px 600px, -500px 900px, 1200px 1200px, -30px 570px }
+}
+@-webkit-keyframes leaf {
+	0% {background-position: 0px 0px, 200px 200px, 400px 400px, 270px 270px;}
+	100% {background-position: 600px 600px, -500px 900px, 1200px 1200px, -30px 570px }
+}
+@-ms-keyframes leaf {
+	0% {background-position: 0px 0px, 200px 200px, 400px 400px, 270px 270px;}
+	100% {background-position: 600px 600px, -500px 900px, 1200px 1200px, -30px 570px }
+}
+body {
+	background-image: url(./images/leaf1.png), url(./images/leaf2.png), url(./images/leaf3.png), url(./images/leaf4.png);
+	-webkit-animation: leaf 20s linear infinite;
+	-moz-animation: leaf 20s linear infinite;
+	-ms-animation: leaf 20s linear infinite;
+	-animation: leaf 20s linear infinite;
+}
+
 
 /* 메뉴 틈 색 채움 */
 #main .menu-wrapper {
