@@ -66,13 +66,22 @@ body {
 	display: none;
 }
 
+#main .menu-wrapper > .header {
+  border-radius: 8px 8px 0 0;
+}
+#main .menu-wrapper > a:last-child {
+  border-radius: 0 0 8px 8px;
+}
+
 /* box-shadow 설정 */
 header #header-bar > .row, #main .menu-wrapper, #main #main-content > div.frame {
-	box-shadow: 0px 0px 4px 2px var(--color-box-shadow);
+  border: 2px solid var(--color-pink-0);
+  border-radius: 8px;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 5px var(--color-pink-0);
 }
 
 /* 테두리, 기타 강조 배경색 */
-header #header-bar > .row, #article-content-wrapper > .header, #article-list #article-list-category {
+#article-content-wrapper > .header, #article-list #article-list-category {
 	border-top-color: var(--color-pink-1);
 }
 #main .menu-wrapper > .header, header #header-bar #header-top-notice strong.notice-badge {
@@ -111,12 +120,11 @@ header .row > div:first-child > a > img {
 /* 헤더 보더 */
 header #header-bar > .row {
 	height: 38px;
-	border: none;
 }
 
 /* 메인 영역 테두리 제거 */
 #main #main-content > div.frame {
-	border: none;
+	/* border: none; */
 }
 
 /* 공지 토글버튼 위치 조정 */
