@@ -50,11 +50,36 @@ body {
 	100% {background-position: 600px 600px, -500px 900px, 1200px 1200px, -30px 570px; }
 }
 body {
-	background-image: url(./images/leaf1.png), url(./images/leaf2.png), url(./images/leaf3.png), url(./images/leaf4.png);
+	/* background-image: url(./images/leaf1.png), url(./images/leaf2.png), url(./images/leaf3.png), url(./images/leaf4.png);
 	-webkit-animation: leaf 25s linear infinite;
 	-moz-animation: leaf 25s linear infinite;
 	-ms-animation: leaf 25s linear infinite;
-	animation: leaf 25s linear infinite;
+	animation: leaf 25s linear infinite; */
+}
+
+/* 비 */
+@keyframes rain {
+	0% {background-position: 0px 0px, 300px 200px, 500px 500px;}
+	100% {background-position: 0px 800px, 300px 1100px, 500px 1200px; }
+}
+@-moz-keyframes rain {
+  0% {background-position: 0px 0px, 300px 200px, 500px 500px;}
+	100% {background-position: 0px 800px, 300px 1100px, 500px 1200px; }
+}
+@-webkit-keyframes rain {
+  0% {background-position: 0px 0px, 300px 200px, 500px 500px;}
+	100% {background-position: 0px 800px, 300px 1100px, 500px 1200px; }
+}
+@-ms-keyframes rain {
+  0% {background-position: 0px 0px, 300px 200px, 500px 500px;}
+	100% {background-position: 0px 800px, 300px 1100px, 500px 1200px; }
+}
+body {
+	background-image: url(./images/rain_1.png), url(./images/rain_2.png), url(./images/rain_3.png);
+	-webkit-animation: rain 1s linear infinite;
+	-moz-animation: rain 1s linear infinite;
+	-ms-animation: rain 1s linear infinite;
+	animation: rain 1s linear infinite;
 }
 
 
