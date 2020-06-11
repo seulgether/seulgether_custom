@@ -140,6 +140,27 @@ header .row > div:first-child > a > img {
 	float: left !important;
 	width: 64px;
 	transform: translate(-1em, -1em);
+  border: 2px solid var(--color-box-shadow);
+  margin: 3px 0 0 3px;
+}
+/* 상단영역 스타일 */
+#board-info {
+  height: 67px;
+}
+#board-info h1 {
+  border-bottom: none;
+}
+#board-info h1 > span {
+  transform: translate(8px, 8px);
+}
+#board-info #board-info-bottom {
+  text-align: right;
+}
+#board-info #board-info-bottom a {
+  color: var(--color-pink-0);
+}
+#board-info #board-info-bottom #addFavoriteBtn i {
+  color: var(--color-active);
 }
 
 /* 헤더 보더 */
