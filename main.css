@@ -263,3 +263,9 @@ header #header-bar > .row {
   -webkit-animation: twitchLiveRotateCircle 10s linear 2s infinite;
   animation: twitchLiveRotateCircle 10s linear 2s infinite;
 }
+/* 생일축하 */
+#board-info h1 > a:after {
+  content: '(생일)';
+  color: #dedede;
+  font-size: 14px;
+}
