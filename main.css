@@ -140,8 +140,10 @@ header .row > div:first-child > a > img {
 	float: left !important;
 	width: 64px;
 	transform: translate(-1em, -1em);
-  border: 2px solid var(--color-box-shadow);
+  border: none;
+  border-radius: 64px;
   margin: 3px 0 0 3px;
+  background: #ffffff;
 }
 /* 상단영역 스타일 */
 #board-info {
@@ -232,4 +234,32 @@ header #header-bar > .row {
 @-ms-keyframes snowball {
 	from { background-position-x: calc(100% + 368px); }
 	to { background-position-x: calc(0% - 368px);}
+}
+
+/* 트위치 라이브 서클 효과 */
+@-webkit-keyframes twitchLiveRotateCircle {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(180deg); }
+  20% { transform: rotate(1turn); }
+  to { transform: rotate(1turn); }
+}
+@keyframes twitchLiveRotateCircle {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(180deg); }
+  20% { transform: rotate(1turn); }
+  to { transform: rotate(1turn); }
+}
+/* 프사 배경 그라데이션 */
+#board-info:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 18px;
+  width: 68px;
+  height: 68px;
+  border-radius: 68px;
+  background: linear-gradient(180deg,var(--color-pink-0) 80%,#845bf1);
+  -webkit-animation: twitchLiveRotateCircle 10s linear 2s infinite;
+  animation: twitchLiveRotateCircle 10s linear 2s infinite;
 }
