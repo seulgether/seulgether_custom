@@ -264,8 +264,8 @@ header #header-bar > .row {
   animation: twitchLiveRotateCircle 10s linear 2s infinite;
 }
 /* 생일축하 */
-#board-info h1 > a:after {
+/* #board-info h1 > a:after {
   content: '(생일)';
   color: #dedede;
   font-size: 14px;
-}
+} */
