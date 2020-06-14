@@ -139,6 +139,7 @@ header .row > div:first-child > a > img {
 #board-info #board-info-profile-img {
 	float: left !important;
 	width: 64px;
+  height: 64px;
 	transform: translate(-1em, -1em);
   border: none;
   border-radius: 64px;
