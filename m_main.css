@@ -56,7 +56,7 @@ header > #header-area > a > h1 {
 	to { background-position-x: calc(0% - 342px);}
 }
 footer {
-	background: url(./images/r_seureuk.png) no-repeat;
+	background: url(./images/rc_seureuk.png) no-repeat;
 	background-size: contain;
 }
 
