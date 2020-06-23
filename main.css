@@ -241,7 +241,7 @@ header #header-bar > .row {
 footer:after {
     display: block;
     content: '';
-    background-image: url(.images/ubr_seureuk.png);
+    background-image: url(./images/ubr_seureuk.png);
     height: 123px;
     width: 174px;
     background-size: contain;
