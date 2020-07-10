@@ -284,3 +284,15 @@ footer:after {
   color: #dedede;
   font-size: 14px;
 } */
+/* ㅡㅔ륵 */
+#board-info:after{
+	display: block;
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 300px;
+	background-image: url(./images/u_e.png);
+	background-size: contain;
+	width: 200px;
+	height: 200px;
+}
