@@ -285,7 +285,7 @@ footer:after {
   font-size: 14px;
 } */
 /* ㅡㅔ륵 */
-#board-info:after{
+#article-list:after{
 	display: block;
 	content: '';
 	position: absolute;
@@ -293,6 +293,14 @@ footer:after {
 	top: 300px;
 	background-image: url(./images/u_e.png);
 	background-size: contain;
+	background-repeat: no-repeat;
 	width: 200px;
 	height: 200px;
+	transition: width 1s, top 1s;
+}
+#article-list:hover:after {
+	width: 0;
+	top: 400px;
+	transition: width 0.5s, top 0.5s;
+	background-repeat: no-repeat;
 }
