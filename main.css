@@ -238,17 +238,21 @@ header #header-bar > .row {
 }
 
 /* 우산륵 */
-footer:after {
-    display: block;
-    content: '';
-    background-image: url(./images/ubr_seureuk.png);
-    height: 123px;
-    width: 174px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    bottom: 15px;
-    transform: scaleX(-1);
+footer > .containe {
+	position: relative;	
+}
+footer > .container:after {
+	display: block;
+	content: '';
+	background-image: url(./images/ubr_seureuk.png);
+	height: 123px;
+	width: 174px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: -15px;
+	transform: scaleX(-1);
+	left: 186px;
 }
 
 /* 트위치 라이브 서클 효과 */
