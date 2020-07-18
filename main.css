@@ -238,7 +238,7 @@ header #header-bar > .row {
 }
 
 /* 우산륵 */
-footer > .containe {
+footer > .container {
 	position: relative;	
 }
 footer > .container:after {
