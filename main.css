@@ -282,12 +282,12 @@ footer > .container:after {
   -webkit-animation: twitchLiveRotateCircle 10s linear 2s infinite;
   animation: twitchLiveRotateCircle 10s linear 2s infinite;
 }
-/* 생일축하 */
-/* #board-info h1 > a:after {
-  content: '(생일)';
+/* 축하 */
+#board-info h1 > a:after {
+  content: '(특:300일 20.08.21)';
   color: #dedede;
   font-size: 14px;
-} */
+}
 /* ㅡㅔ륵 */
 #article-list:after{
 	display: block;
