@@ -32,6 +32,7 @@ html, body {
 	display: inline-block;
 	background-image: url(./images/rabat_2.png);
 	background-size: contain;
+  background-repeat: no-repeat;
 	width: 72px;
 	height: 72px;
 }
