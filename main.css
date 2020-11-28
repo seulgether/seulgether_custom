@@ -239,7 +239,7 @@ header #header-bar > .row {
 
 /* 우산륵 */
 footer > .container {
-	position: relative;	
+	position: relative;
 }
 footer > .container:after {
 	display: block;
@@ -283,11 +283,11 @@ footer > .container:after {
   animation: twitchLiveRotateCircle 10s linear 2s infinite;
 }
 /* 축하 */
-/* #board-info h1 > a:after {
-  content: '(특:300일 20.08.21)';
+#board-info h1 > a:after {
+  content: '(특:400일 20.11.29)';
   color: #dedede;
   font-size: 14px;
-} */
+}
 /* ㅡㅔ륵 */
 #article-list:after{
 	display: block;
