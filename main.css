@@ -26,11 +26,11 @@ body {
 	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 body {
-/*	background-image: url(./images/snow.png), url(./images/snow3.png), url(./images/snow2.png);
+	background-image: url(./images/snow.png), url(./images/snow3.png), url(./images/snow2.png);
 	-webkit-animation: snow 20s linear infinite;
 	-moz-animation: snow 20s linear infinite;
 	-ms-animation: snow 20s linear infinite;
-	animation: snow 20s linear infinite; */
+	animation: snow 20s linear infinite;
 }
 /* 벚꽃잎 */
 @keyframes leaf {
@@ -75,11 +75,11 @@ body {
 	100% {background-position: 0px 800px, 300px 1100px, 500px 1200px; }
 }
 body {
-	background-image: url(./images/rain_1.png), url(./images/rain_2.png), url(./images/rain_3.png);
+/*	background-image: url(./images/rain_1.png), url(./images/rain_2.png), url(./images/rain_3.png);
 	-webkit-animation: rain 1s linear infinite;
 	-moz-animation: rain 1s linear infinite;
 	-ms-animation: rain 1s linear infinite;
-	animation: rain 1s linear infinite;
+	animation: rain 1s linear infinite; */
 }
 
 
@@ -238,7 +238,7 @@ header #header-bar > .row {
 }
 
 /* 우산륵 */
-footer > .container {
+/* footer > .container {
 	position: relative;
 }
 footer > .container:after {
@@ -253,7 +253,7 @@ footer > .container:after {
 	bottom: -15px;
 	transform: scaleX(-1);
 	left: 186px;
-}
+} */
 
 /* 트위치 라이브 서클 효과 */
 @-webkit-keyframes twitchLiveRotateCircle {
@@ -283,11 +283,11 @@ footer > .container:after {
   animation: twitchLiveRotateCircle 10s linear 2s infinite;
 }
 /* 축하 */
-#board-info h1 > a:after {
+/* #board-info h1 > a:after {
   content: '(특:400일 20.11.29)';
   color: #dedede;
   font-size: 14px;
-}
+} */
 /* ㅡㅔ륵 */
 #article-list:after{
 	display: block;
